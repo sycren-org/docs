@@ -60,12 +60,21 @@ Copyright © 2026 Sycren (sycren.com). All rights reserved.
    4.1 All right, title, and interest in and to the Code, including all
        copyrights, trade secrets, patents, and other intellectual property
        rights, remain solely and exclusively with Sycren.
-   4.2 Any Derivative Work created by an Authorized Developer shall be
-       owned by Sycren. Authorized Developers hereby assign all rights
-       in such Derivative Works to Sycren, and agree to execute any
-       documents reasonably requested to perfect such assignment.
-   4.3 This license conveys no ownership interest and grants only the
-       limited rights expressly set forth in Section 2.
+    4.2 To the fullest extent permitted by Italian law (Legge 22 aprile
+        1941, n. 633 and subsequent amendments), any Derivative Work
+        created by an Authorized Developer is hereby assigned to Sycren.
+        Authorized Developers agree to execute any documents reasonably
+        requested to perfect and record such assignment. Where automatic
+        assignment is not permitted under applicable law, the Authorized
+        Developer grants Sycren an exclusive, irrevocable, worldwide,
+        royalty-free, perpetual license to use, reproduce, modify,
+        distribute, and exploit such Derivative Work as Sycren sees fit.
+        This provision is without prejudice to any separate work-for-hire,
+        employment, or collaboration agreement that may govern the
+        relationship between Sycren and the Authorized Developer; in case
+        of conflict, the more specific agreement shall prevail.
+    4.3 This license conveys no ownership interest and grants only the
+        limited rights expressly set forth in Section 2.
 
 5. TERM AND TERMINATION
 
@@ -73,10 +82,17 @@ Copyright © 2026 Sycren (sycren.com). All rights reserved.
        and continues until terminated.
    5.2 Sycren may terminate this license immediately upon written notice
        if an Authorized Developer breaches any provision of this license.
-   5.3 Upon termination, the Authorized Developer must immediately cease
-       all use of the Code and destroy all copies, modifications, and
-       Derivative Works in their possession or control.
-   5.4 Sections 3, 4, 6, 7, and 8 survive termination of this license.
+    5.3 Upon termination, the Authorized Developer must immediately cease
+        all use of the Code and destroy all copies, modifications, and
+        Derivative Works in their possession or control. For the avoidance
+        of doubt, "destroy" does not require deletion from automated system
+        backups, version control history (e.g., git reflog, commit history),
+        or disaster recovery archives where such deletion is not reasonably
+        practicable; however, any such retained copies shall not be restored
+        or used for any purpose, and must be permanently deleted when the
+        backup media is next rotated, overwritten, or recycled in the
+        ordinary course of business.
+    5.4 Sections 3, 4, 6, 7, and 8 survive termination of this license.
 
 6. DISCLAIMER OF WARRANTY
 
@@ -97,10 +113,25 @@ Copyright © 2026 Sycren (sycren.com). All rights reserved.
    CONNECTION WITH THE USE, MODIFICATION, OR DISTRIBUTION OF THE CODE,
    EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-8. GOVERNING LAW
+8. GOVERNING LAW AND DISPUTE RESOLUTION
 
-   This license shall be governed by and construed in accordance with
-   the laws of Italy, without regard to its conflict of laws principles.
+   8.1 This license shall be governed by and construed in accordance
+       with the laws of the Italian Republic, without regard to its
+       conflict of laws principles.
+   8.2 Any dispute arising out of or in connection with this license
+       shall first be submitted to amicable negotiation between the
+       parties for a period of thirty (30) days.
+   8.3 If the dispute is not resolved through negotiation, the parties
+       shall attempt to settle it through mediation administered by a
+       recognized mediation body in Italy (such as the Organismo di
+       Mediazione presso la Camera di Commercio competente).
+   8.4 Should mediation fail, the exclusive jurisdiction shall be the
+       court of the place where Sycren has its registered office at the
+       time the dispute arises. If Sycren has no registered office at
+       such time, jurisdiction shall be the Foro di Milano.
+   8.5 Nothing in this Section prevents Sycren from seeking injunctive
+       or other equitable relief in any competent court for the
+       protection of its intellectual property rights.
 
 9. GENERAL PROVISIONS
 
