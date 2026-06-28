@@ -1,33 +1,121 @@
-Sycren Proprietary License — v1.0
-Copyright © 2026 Sycren. All rights reserved.
+S Y C R E N   P R O P R I E T A R Y   L I C E N S E
 
-1. Grant of License
-   Sycren grants internal developers and explicitly authorized personnel a
-   non-exclusive, non-transferable, revocable license to view, modify, and
-   execute the code within this repository solely for the purpose of
-   developing and operating the Sycren platform.
+Version 1.0 — Effective June 28, 2026
+Copyright © 2026 Sycren (sycren.com). All rights reserved.
 
-2. Restrictions
-   Except as expressly permitted in Section 1, you may NOT:
-   a) Reproduce, copy, distribute, sublicense, or sell any part of this
-      code or its derivative works;
-   b) Use the code for any commercial purpose outside the Sycren platform;
-   c) Disclose, publish, or make the code publicly available in any form;
-   d) Remove or alter any proprietary notices or markings.
+---
 
-3. Ownership
-   All right, title, and interest in and to the code, including all
-   intellectual property rights, remain solely with Sycren. This license
-   does not transfer any ownership.
+1. DEFINITIONS
 
-4. Termination
-   This license terminates immediately if you violate any provision.
-   Upon termination, you must destroy all copies of the code in your
-   possession.
+   1.1 "Code" means all source code, object code, scripts, documentation,
+        configuration files, assets, and any other material contained in
+        the repository or workspace to which this license applies.
+   1.2 "Sycren" means Sycren (sycren.com), its founders, and its assigns.
+   1.3 "Authorized Developer" means an individual who (a) is a member of
+        the Sycren team, (b) has been explicitly granted access by Sycren,
+        or (c) is acting under a written agreement with Sycren.
+   1.4 "Internal Use" means use solely for the development, testing,
+        deployment, and operation of the Sycren platform and its
+        associated services. Internal Use expressly excludes any use
+        for the benefit of a third party.
+   1.5 "Derivative Work" means any work that is based on, incorporates,
+        or is derived from the Code, including modifications, translations,
+        adaptations, and extensions.
 
-5. Disclaimer
-   THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED. SYCREN SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-   LIABILITY ARISING FROM THE USE OF THE CODE.
+2. GRANT OF LICENSE
+
+   Subject to the terms and conditions of this license, Sycren grants
+   each Authorized Developer a non-exclusive, non-transferable,
+   non-sublicensable, revocable, worldwide license to:
+
+   (a) Access, view, and study the Code;
+   (b) Reproduce the Code solely as necessary for Internal Use;
+   (c) Create Derivative Works solely for Internal Use;
+   (d) Execute, run, and deploy the Code for Internal Use.
+
+3. RESTRICTIONS
+
+   Except as expressly permitted in Section 2, Authorized Developers
+   and any person accessing the Code shall NOT:
+
+   (a) Reproduce, copy, duplicate, or redistribute the Code or any
+       Derivative Work, in whole or in part, in any medium, to any
+       person or entity outside the Sycren organization;
+   (b) Sell, license, sublicense, rent, lease, lend, or otherwise
+       commercially exploit the Code or any Derivative Work, including
+       offering any portion of the Code as a hosted or managed service;
+   (c) Disclose, publish, upload, or otherwise make the Code or any
+       Derivative Work publicly accessible, including on any public
+       repository, forum, or website;
+   (d) Use the Code or any Derivative Work for any purpose other than
+       Internal Use, including for the benefit of any employer, client,
+       or third party not affiliated with Sycren;
+   (e) Remove, modify, or obscure any copyright, trademark, or other
+       proprietary notices contained in or on the Code;
+   (f) Use the Code in any manner that violates applicable law or
+       third-party rights.
+
+4. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+   4.1 All right, title, and interest in and to the Code, including all
+       copyrights, trade secrets, patents, and other intellectual property
+       rights, remain solely and exclusively with Sycren.
+   4.2 Any Derivative Work created by an Authorized Developer shall be
+       owned by Sycren. Authorized Developers hereby assign all rights
+       in such Derivative Works to Sycren, and agree to execute any
+       documents reasonably requested to perfect such assignment.
+   4.3 This license conveys no ownership interest and grants only the
+       limited rights expressly set forth in Section 2.
+
+5. TERM AND TERMINATION
+
+   5.1 This license is effective from the date the Code is first accessed
+       and continues until terminated.
+   5.2 Sycren may terminate this license immediately upon written notice
+       if an Authorized Developer breaches any provision of this license.
+   5.3 Upon termination, the Authorized Developer must immediately cease
+       all use of the Code and destroy all copies, modifications, and
+       Derivative Works in their possession or control.
+   5.4 Sections 3, 4, 6, 7, and 8 survive termination of this license.
+
+6. DISCLAIMER OF WARRANTY
+
+   THE CODE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED. SYCREN SPECIFICALLY DISCLAIMS ALL
+   WARRANTIES, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+   NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE
+   OF THE CODE IS WITH THE AUTHORIZED DEVELOPER.
+
+7. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   SYCREN BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO
+   LOSS OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, ARISING OUT OF OR IN
+   CONNECTION WITH THE USE, MODIFICATION, OR DISTRIBUTION OF THE CODE,
+   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. GOVERNING LAW
+
+   This license shall be governed by and construed in accordance with
+   the laws of Italy, without regard to its conflict of laws principles.
+
+9. GENERAL PROVISIONS
+
+   9.1 This license constitutes the entire agreement between Sycren and
+       the Authorized Developer regarding the Code and supersedes all
+       prior agreements and understandings.
+   9.2 If any provision of this license is held to be invalid or
+       unenforceable, the remaining provisions shall continue in full
+       force and effect.
+   9.3 The failure of Sycren to enforce any right or provision of this
+       license shall not constitute a waiver of such right or provision.
+   9.4 An Authorized Developer may not assign or transfer this license,
+       or any rights granted under it, without Sycren's prior written
+       consent. Sycren may assign this license without restriction.
+
+---
 
 Sycren — https://sycren.com
