@@ -482,6 +482,7 @@ Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separ
 | `sycren-design-system` | Privato | Componenti UI condivisi, token design, Storybook |
 | `sycren-db` | Privato | Pacchetto condiviso: schema Prisma, migrazioni, tipi e utility DB per tutte le applicazioni |
 | `sycren-infra` | Privato | Configurazioni Kubernetes, Docker Compose, IaC (Terraform/Ansible) |
+| `sycren-discord-bot` | Privato | Bot Discord privato con AI per moderazione, ticket, community management e automazione server |
 
 #### Team
 
@@ -491,6 +492,7 @@ Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separ
 | `engineering` | Lead Dev, Frontend, Backend, DevOps, DBA | Tutti i repo interni | Write |
 | `product-design` | PM, UI/UX Designer | app, studio, design-system, docs | Write |
 | `cloud-infra` | Cloud Engineer, SysAdmin | cloud, infra, security | Write |
+| `community` | Social Media Manager, Content Creator | discord-bot, docs | Write |
 | `security` | Security Engineer, Pen Tester | security, infra | Write |
 | `readonly` | CMO, Sales, Account, Legal, Finance | docs | Read |
 

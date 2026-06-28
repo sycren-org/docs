@@ -27,15 +27,18 @@ Età 16 ────────────────────────
       │  • studio.sycren.com (client portal)                           │  P.IVA       │ Team
       │  • app.sycren.com (SSO)                                        │  Vendite     │ MRR €10k+
       │  • cloud.sycren.com (cloud lite)                               │              │
+      │  • sycren-discord-bot (AI Discord management)                   │              │
       │  • Raccolta contatti waitlist                                  │              │
       │                                                                               │
       └── 16 → 16 → 16 → 16-17 → 17 → 17 → 18 ─────────────────────► 18 → 18 → 19+
          LND   DB   STU   APP   CLD   PRE   LANCIO                   POST1  POST6  POST12
+         BOT   BOT   BOT
 ```
 
 | Età | Periodo | Step | Cosa Succede |
 |---|---|---|---|
 | **16** | Settimana 1–2 | Landing | `sycren.com` live con waitlist, GitHub org pronta, primo brand asset |
+| **16** | Settimana 1–3 | Discord Bot | `sycren-discord-bot` MVP: registrazione slash command, AI moderation base, welcome system |
 | **16** | Settimana 2–4 | sycren-db | Schema Prisma e migrazioni completati, package npm pubblicato |
 | **16** | Settimana 4–8 | Studio | `studio.sycren.com` MVP in sviluppo con quote e onboarding |
 | **16–17** | Mese 2–3 | App | Studio in staging, `app.sycren.com` SSO base operativo |
@@ -146,6 +149,9 @@ Arrivare al momento del lancio commerciale con prodotto, brand e pipeline client
 - [x] Creare l'organizzazione GitHub **`sycren`** con repository: `sycren-app`, `sycren-studio`, `sycren-cloud`, `sycren-domains`, `sycren-security`, `sycren-docs`
 - [x] Registrare **`sycren.com`** (~€10/anno — unica spesa obbligatoria). DNS su Cloudflare
 - [ ] **Settimana 1:** Sviluppare e deployare la landing page su **Vercel** (gratuito): tutte e 9 le sezioni, waitlist, prezzi visibili, 3 temi
+- [ ] **Settimana 1-2:** Inizializzare `sycren-discord-bot` con Discord.js v14 e registrazione slash command
+- [ ] **Settimana 2-3:** Implementare AI moderation (auto-mod, content filtering) via OpenAI API
+- [ ] **Settimana 3:** Sistema di ticket automatici con classificazione AI, welcome/onboarding automation
 - [ ] **Settimana 1:** Configurare email con dominio tramite **Cloudflare Email Routing** (gratuito) — `hello@sycren.com`, `angelo@sycren.com`, `cosimo@sycren.com`
 - [ ] **Settimana 1:** Impostare sistema di raccolta contatti (Resend API Route + form waitlist)
 - [ ] **Settimana 2:** Connettere Vercel + Cloudflare + GitHub per CI/CD automatico
@@ -158,6 +164,7 @@ Arrivare al momento del lancio commerciale con prodotto, brand e pipeline client
 | Creare LinkedIn Company Page | LinkedIn | Cosimo | Settimana 1 |
 | Aggiornare profili personali LinkedIn | LinkedIn | Entrambi | Settimana 1 |
 | Creare canale Discord Sycren | Discord | Cosimo | Settimana 1-2 |
+| Deployare sycren-discord-bot MVP sul server | Discord | Angelo | Settimana 2-3 |
 | Registrare handle X/Twitter `@sycren` | X (Twitter) | Cosimo | Settimana 1 |
 | Creare account Instagram business | Instagram | Cosimo | Settimana 2 |
 | Primo post di lancio brand | Tutti | Cosimo | Settimana 2 |
@@ -204,6 +211,8 @@ Pubblicare **almeno 2 contenuti al mese** per costruire autorità e attrarre con
 | Raccolta contatti e networking | Entrambi | Entrambi |
 | Ricerca provider VPS e pricing | Lead | |
 | Progettazione piani cloud/pricing | Lead | Supporto |
+| Sviluppo `sycren-discord-bot` (AI moderation, ticket, automazione) | Lead (bot logic, AI) | Lead (slash commands, UI embeds) |
+| Gestione community Discord | | Lead |
 
 ---
 
@@ -231,6 +240,11 @@ app.sycren.com (SSO/Hub) ←── si appoggia a sycren-db per utenti/ruoli
     ├──► domains.sycren.com ←── si appoggia a sycren-db + app SSO
     │
     └──► security.sycren.com ←── si appoggia a sycren-db + app SSO (dopo lancio)
+
+sycren-discord-bot (parallelo, indipendente)
+    │
+    ├──► Opzionale: sycren-db per analytics e logging
+    └──► Opzionale: sycren-app per notifiche cross-platform
 ```
 
 ### Modulo 1 — `sycren.com` Landing Page (completa) — 🕐 16 anni
@@ -435,7 +449,59 @@ DigitalOcean    €6/mese     €10-12/mese         40-60%
 - WHOIS privacy protection
 - DNS propagation checker
 
-### Modulo 7 — `security.sycren.com` — 🕐 18+ anni
+### Modulo 7 (internal) — `sycren-discord-bot` — 🕐 16 anni
+**Stima: Settimana 1-3 (parallelo alla landing)** | **Priorità: ALTA (community)**
+
+**Perché parallelo:** il canale Discord è previsto come punto di aggregazione per developer e potenziali clienti fin dalla Fase 0. Un bot AI rende il server professionale, automatizza la moderazione e raccoglie feedback/lead 24/7.
+
+**Tecnologie:**
+- **Runtime:** Node.js 20 LTS + TypeScript strict
+- **Library:** Discord.js v14
+- **AI:** OpenAI API (GPT-4o-mini per moderazione e classificazione ticket)
+- **Database:** Supabase/PostgreSQL via `sycren-db` (opzionale per analytics)
+- **Deploy:** Railway / Fly.io (gratuito Fase 0) o VPS Hetzner
+
+**Funzionalità MVP (Fase 0):**
+```
+┌─────────────────────────────────────────────┐
+│           sycren-discord-bot                  │
+│                                               │
+│  Moderation ──► Auto-mod filtered words      │
+│                Content scanning via AI        │
+│                Timeout/mute automation        │
+│                                               │
+│  Community ───► Welcome messages + roles      │
+│                Verification system (captcha)  │
+│                Level/XP system (opzionale)    │
+│                                               │
+│  Support ─────► Ticket creation via /ticket   │
+│                AI classification (bug/question│
+│                /sales) → auto-label + assign  │
+│                FAQ auto-reply via AI          │
+│                                               │
+│  Growth ──────► /roadmap command (mostra      │
+│                milestone corrente)            │
+│                /invite (genera link referral) │
+│                Feedback collection via AI     │
+└─────────────────────────────────────────────┘
+```
+
+**Funzionalità avanzate (Fase 2+):**
+- Integrazione con `studio.sycren.com` (notifiche progetti in canale privato cliente)
+- Integrazione con `app.sycren.com` (alert sicurezza in tempo reale)
+- Dashboard web per configurare il bot (toggle features, custom rules)
+- Analytics: messaggi/giorno, sentiment, SLA ticket
+
+**Criteri di completamento MVP:**
+- [ ] Bot online 24/7 su server Discord Sycren
+- [ ] Slash command `/ticket` funzionante con classificazione AI
+- [ ] Moderazione automatica (bad words, spam detection)
+- [ ] Welcome message con auto-role al join
+- [ ] Comando `/roadmap` che mostra milestone corrente
+- [ ] FAQ auto-reply su canali help
+- [ ] Log moderation in canale privato #mod-log
+
+### Modulo 8 — `security.sycren.com` — 🕐 18+ anni
 **Stima: Dopo lancio commerciale** | **Priorità: BASSA (add-on)**
 
 **Perché settimo:** add-on premium per clienti Cloud esistenti. Modello di reselling Cloudflare Pro con pannello custom.
@@ -635,18 +701,18 @@ Con ricavi ricorrenti consolidati, costruire la struttura legale, operativa e di
 
 ```
 🕐 16 ──────────► 16 ──────────► 16 ───────────────► 16-17 ──────────► 17 ──────────► 17 ────► 18 🎂
-   Sett 1-2        Sett 2-4        Sett 4-8            Mese 2-3         Mese 3-5      Pre-lancio  LANCIO
-   ┌─────────┐    ┌─────────┐    ┌──────────┐       ┌──────────┐     ┌──────────┐   ┌────────┐  ┌────────┐
-   │sycren   │    │sycren-db│    │studio    │       │studio    │     │cloud     │   │Legale  │  │P.IVA   │
-   │.com live│    │schema + │    │.com MVP  │       │.com      │     │.com lite │   │fatture │  │Vendite │
-   │waitlist │    │migraz   │    │iniziato  │       │staging   │     │20-30 lead│   │pronto   │  │aperte  │
-   │attiva   │    │┌──────┐ │    │┌────────┐│       │app SSO   │     │portfol.io│   │contratti│  │        │
-   └─────────┘    │tipi TS│ │    ││quote   ││       │base op.  │     │Cosimo ✔ │   │test OK  │  │        │
-                  │utils  │ │    ││onboard ││       └──────────┘     └──────────┘   └────────┘  └────────┘
-                  └───────┘ │    ││dashbrd ││
-                            │    ││chat    ││
-                            │    └────────┘│
-                            └──────────────┘
+   Sett 1-2        Sett 1-3        Sett 2-4        Sett 4-8         Mese 2-3        Mese 3-5      Pre-lancio
+   ┌─────────┐    ┌──────────┐   ┌─────────┐    ┌──────────┐      ┌──────────┐    ┌──────────┐   ┌────────┐
+   │sycren   │    │discord   │   │sycren-db│    │studio    │      │studio    │    │cloud     │   │Legale  │
+   │.com live│    │bot MVP   │   │schema + │    │.com MVP  │      │.com      │    │.com lite │   │fatture │
+   │waitlist │    │/ticket   │   │migraz   │    │iniziato  │      │staging   │    │20-30 lead│   │pronto  │
+   │attiva   │    │AI mod    │   │┌──────┐ │    │┌────────┐│      │app SSO   │    │portfol.io│   │contratti│
+   └─────────┘    │welcome   │   ││tipi TS│ │    ││quote   ││      │base op.  │    │Cosimo ✔ │   │test OK  │
+                  └──────────┘   ││utils  │ │    ││onboard ││      └──────────┘    └──────────┘   └────────┘
+                                 └───────┘ │    ││dashbrd ││
+                                           │    ││chat    ││
+                                           │    └────────┘│
+                                           └──────────────┘
 
 18 🎂 ────────► 18 ────────────────► 18 ───────────────────► 19+
 LANCIO          Mese 1-2 post       Mese 3-6 post           Mese 9-12 post
