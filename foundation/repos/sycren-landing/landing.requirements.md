@@ -23,7 +23,7 @@ Sycren è una piattaforma unificata per sviluppo software, cloud hosting, gestio
 - [x] Organizzazione GitHub `sycren` creata con struttura repository completa
 - [x] Dominio `sycren.com` registrato — DNS su Cloudflare
 - [ ] Landing page in sviluppo — **questo repository**
-- [x] Email con dominio via Cloudflare Email Routing
+- [ ] Email con dominio via Cloudflare Email Routing
 - [ ] Sistema raccolta contatti waitlist attivo
 
 ---
@@ -43,7 +43,7 @@ Sycren è una piattaforma unificata per sviluppo software, cloud hosting, gestio
 
 ## 3. Architettura della Pagina
 
-La landing page è una **single-page application (SPA)** in Next.js 14+ (App Router), deployata su Vercel. URL: `sycren.com`.
+La landing page è una **single-page application (SPA)** in Next.js 14+ (App Router), deployata su VPS (Hetzner) via GitHub Actions. URL: `sycren.com`.
 
 ### Sezioni in ordine (9 sezioni)
 
@@ -133,9 +133,9 @@ Sotto i 4 step: `50% upfront · Transparent pricing · No hidden fees`
 | Database | PostgreSQL, MongoDB, Redis |
 | DevOps | Docker, GitHub Actions, Kubernetes |
 | Linguaggi | Python, Go, Rust |
-| Piattaforme | Cloudflare, Vercel, Hetzner |
+| Piattaforme | Cloudflare, Hetzner |
 
-Tooltip al hover: nome tecnologia + "Used for: [descrizione breve]"
+Tooltip al hover: nome tecnologia + "Used for: `descrizione breve`"
 
 ### 4.6 Sezione Team / Founder
 
@@ -208,7 +208,7 @@ La pagina ha due stati operativi gestiti esclusivamente via variabile d'ambiente
 | `WAITLIST` (default) | Raccolta contatti pre-lancio (🕐 16-17 anni) | CTA = "Join the waitlist", badge "Coming soon" attivi su Cloud/Domains/Security, nota footer presente, nessuna vendita attiva |
 | `LIVE` | Vendita attiva (🎂 18+ anni) | CTA = "Request a quote", badge "Coming soon" rimossi (tutte le divisioni "Available"), nota footer rimossa |
 
-**Regola:** Nessuna modifica al codice richiesta tra i due stati — solo aggiornamento della ENV su Vercel e redeploy.
+**Regola:** Nessuna modifica al codice richiesta tra i due stati — solo aggiornamento della ENV e redeploy via GitHub Actions.
 
 ---
 
@@ -284,7 +284,7 @@ Niente colori hex hardcoded nel JSX. Tutti i colori sono definiti come CSS custo
 - `next/font` per caricamento font ottimizzato (nessun CDN esterno)
 - Ottimizzazione immagini via `next/image`
 - Bundle splitting automatico di Next.js
-- Minificazione e compressione Vercel Edge
+- Minificazione e compressione (Next.js built-in)
 
 ---
 
@@ -299,7 +299,7 @@ Niente colori hex hardcoded nel JSX. Tutti i colori sono definiti come CSS custo
 - [ ] Menu mobile funzionante su 375px viewport
 - [ ] Lighthouse Performance ≥ 90 su mobile
 - [ ] Lighthouse Accessibility ≥ 90 su mobile
-- [ ] Deploy attivo su `sycren.com` con SSL (Vercel + Cloudflare)
+- [ ] Deploy attivo su `sycren.com` con SSL (VPS + Cloudflare)
 - [ ] Nessun segreto o API key committed nel repository
 - [ ] `.env.example` con tutte le variabili documentate
 - [ ] `prefers-reduced-motion` supportato
@@ -349,7 +349,7 @@ Niente colori hex hardcoded nel JSX. Tutti i colori sono definiti come CSS custo
 
 ## 10. Struttura Cartelle
 
-```
+```text
 sycren-landing/
 ├── app/
 │   ├── layout.tsx
@@ -399,22 +399,6 @@ sycren-landing/
 ├── package.json
 └── README.md
 ```
-
----
-
-## Related Notes
-
-| Document | Description |
-|---|---|
-| [[landing.README]] | sycren-landing overview |
-| [[landing.todo]] | Implementation plan |
-| [[design-system.requirements\|Design System requirements]] | UI components consumed (P0) |
-| [[infra.requirements\|sycren-infra requirements]] | CI/CD pipeline |
-| [[studio.requirements\|sycren-studio requirements]] | Downstream — quote CTA redirect |
-| [[app.requirements\|sycren-app requirements]] | Downstream — waitlist data feed |
-| [[db.requirements\|sycren-db requirements]] | Waitlist schema (future integration) |
-| [[foundation/ROADMAP\|Bootstrap Roadmap]] | Build order — module #1 |
-| [[foundation/HOME\|Knowledge Base Root]] | Navigation hub |
 
 ---
 

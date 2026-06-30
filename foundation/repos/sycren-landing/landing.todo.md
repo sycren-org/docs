@@ -24,31 +24,26 @@
 
 - [x] Creare organizzazione GitHub `sycren` — struttura repository completa
 - [x] Registrare `sycren.com` — DNS su Cloudflare
-- [ ] **Inizializzare progetto Next.js 14** con App Router e TypeScript strict
+- [x] **Inizializzare progetto Next.js 14** con App Router e TypeScript strict
   - `npx create-next-app@latest sycren-landing --typescript --app --src-dir=false --import-alias="@/*"`
   - Abilitare Turbopack per sviluppo veloce
-- [ ] **Configurare Tailwind CSS 3.4+** con design token
-  - `npm install -D tailwindcss postcss autoprefixer`
-  - `npx tailwindcss init -p`
-  - Configurare `tailwind.config.ts` con content paths, extended colors (design token), fontFamily, borderRadius personalizzati
-- [ ] **Installare dipendenze runtime**
+- [x] **Installare dipendenze runtime**
   - `npm install framer-motion react-hook-form @hookform/resolvers zod lucide-react resend clsx`
-- [ ] **Installare devDependencies**
+- [x] **Installare devDependencies**
   - `npm install -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-next`
-- [ ] **Configurare next/font**
+- [x] **Configurare next/font**
   - Geist Mono (font monospace per terminal block e codice)
   - Inter (font principale per corpo testo)
   - Nessun font caricato da CDN esterno — tutto via `next/font`
-- [ ] **Creare `.env.example`** con tutte le variabili d'ambiente documentate
+- [x] **Creare `.env.example`** con tutte le variabili d'ambiente documentate
   ```bash
-  RESEND_API_KEY=re_xxxxxxxxxxxxx
   NEXT_PUBLIC_LAUNCH_MODE=WAITLIST
   NEXT_PUBLIC_SITE_URL=https://sycren.com
   FOUNDER_EMAIL_1=angelo@sycren.com
   FOUNDER_EMAIL_2=cosimo@sycren.com
   ```
-- [ ] **Impostare struttura cartelle**
-  ```
+- [x] **Impostare struttura cartelle**
+  ```text
   app/  components/  lib/  public/
   ```
   - `app/` — layout, page, globals.css, API routes, sitemap, robots
@@ -56,21 +51,19 @@
   - `components/sections/` — Hero, Divisions, HowItWorks, TechStack, Team, Pricing, WaitlistForm
   - `components/ui/` — Button, Badge, Card, DivisionCard, PricingCard, TerminalBlock, AnimatedGrid
   - `lib/` — utils, constants, resend client, zod schemas
-- [ ] **Configurare Vercel**
-  - Collegare repository GitHub `sycren/sycren-landing`
-  - Impostare Framework Preset: Next.js
-  - Aggiungere ENV variables (RESEND_API_KEY, NEXT_PUBLIC_LAUNCH_MODE, ecc.)
-  - Abilitare Vercel Analytics
+- [x] **Configurare VPS (Hetzner)**
+  - Server Ubuntu 22.04 con Docker e docker-compose installati
+  - Aggiungere ENV variables nel GitHub Secret
   - Configurare dominio custom `sycren.com`
-- [ ] **Configurare Cloudflare DNS**
-  - Puntare A/AAAA records a Vercel IPs
+- [x] **Configurare Cloudflare DNS**
+  - Puntare A/AAAA records a Hetzner IPs
   - Impostare proxy CDN arancione
   - Abilitare WAF base (Security Level: Medium, Challenge Passage: 5 min)
   - Configurare SSL/TLS: Full (strict)
   - Impostare Page Rules per caching assets statici
-- [ ] **Configurare Cloudflare Email Routing**
+- [x] **Configurare Cloudflare Email Routing**
   - Catch-all per `@sycren.com` → email personali founder
-  - Routing specifico per `hello@sycren.com`, `angelo@sycren.com`, `cosimo@sycren.com`
+  - Routing specifico per `angelo.paciello@sycren.com` e `cosimo.russo@sycren.com`
 
 ---
 
@@ -180,7 +173,7 @@
 - [ ] **Tech Stack**
   - 6 categorie: Frontend, Backend, Database, DevOps, Languages, Platforms
   - 22 tecnologie totali in griglia
-  - Tooltip al hover: nome + "Used for: [descrizione]"
+  - Tooltip al hover: nome + "Used for: `descrizione`"
   - Icone/logo semplificati per ogni tecnologia (opzionale)
 - [ ] **Team**
   - 2 card affiancate (desktop) / stacked (mobile)
@@ -206,7 +199,7 @@
   - Errore: messaggio chiaro con possibilità di riprovare
 - [ ] **Schema.org Organization JSON-LD**
   - Iniettato in `<head>` via `layout.tsx` o `page.tsx`
-  - name: Sycren, url: https://sycren.com, sameAs: [GitHub, X, LinkedIn, Discord]
+  - name: Sycren, url: https://sycren.com, sameAs: `[GitHub, X, LinkedIn, Discord]`
 
 ---
 
@@ -216,17 +209,17 @@
   - Validazione body con Zod schema (email, name?, projectType?, message?, website?)
   - Controllo honeypot: se `website` è popolato → return 200 falsa (silent reject)
   - Invio email di conferma all'utente tramite Resend
-    - Template: "Thanks for joining the waitlist, [Name]!"
+    - Template: "Thanks for joining the waitlist, `[Name]`!"
     - Contenuto: conferma iscrizione, cosa aspettarsi, contatti
   - Invio email di notifica ai founder
     - Destinatari: `angelo@sycren.com`, `cosimo@sycren.com`
     - Contenuto: Nome, Email, Tipo progetto, Messaggio, timestamp
   - Gestione errori: try/catch con log, return 500 con messaggio generico
-  - Rate limiting base (opzionale, da Vercel o middleware)
+  - Rate limiting base (opzionale, da middleware)
 - [ ] **`/api/waitlist/count`** — GET route
   - Legge conteggio totale dal database (o da contatore incrementale)
   - Return JSON: `{ count: number }`
-  - Cache: 60s su Vercel Edge (serverless)
+  - Cache: 60s (configurabile via middleware o CDN)
   - Se non ancora collegato a DB, return numero statico incrementale
 - [ ] **Resend client** — `lib/resend.ts`
   - Inizializzazione SDK con `RESEND_API_KEY`
@@ -272,20 +265,18 @@
 
 ---
 
-## Vercel Deploy & CI/CD
+## VPS Deploy & CI/CD
 
-- [ ] **Collegare repo** a Vercel (via GitHub integration)
-- [ ] **Impostare Production Branch:** `main`
-- [ ] **Configurare Environment Variables** in Vercel Dashboard
-  - `RESEND_API_KEY` (Production, Preview, Development separati)
-  - `NEXT_PUBLIC_LAUNCH_MODE=WAITLIST`
-  - `NEXT_PUBLIC_SITE_URL=https://sycren.com`
+- [x] **Configurare VPS** — Ubuntu 22.04, Docker, docker-compose
+- [x] **Impostare GitHub Actions** — SSH deploy su push a `main`
+- [x] **Configurare GitHub Secrets**
+  - `SSH_HOST`, `SSH_USERNAME`, `SSH_PASSWORD`, `SSH_PORT`
+  - `GH_PAT` (per autenticazione git clone privato)
+  - `RESEND_API_KEY`
   - `FOUNDER_EMAIL_1`, `FOUNDER_EMAIL_2`
-- [ ] **Abilitare Vercel Analytics** (Speed Insights + Web Analytics)
-- [ ] **Abilitare Vercel Edge Caching** per risorse statiche
-- [ ] **Configurare dominio custom** `sycren.com` su Vercel
-- [ ] **Verificare SSL/TLS** attivo (Vercel + Cloudflare Full Strict)
-- [ ] **Abilitare automatic Preview Deployments** per ogni PR branch
+- [ ] **Configurare dominio custom** `sycren.com` (Cloudflare → VPS)
+- [x] **SSL/TLS** tramite Cloudflare Full Strict
+- [ ] **Abilitare deploy automatico** per ogni push su `main`
 
 ---
 
@@ -322,8 +313,8 @@
   - Bundle JS < 150KB gzipped (`next build` + analisi bundle)
 - [ ] **Deploy**
   - `sycren.com` attivo e raggiungibile
-  - SSL valido (certificato Cloudflare/Vercel)
-  - Vercel Analytics mostra visite in real-time
+  - SSL valido (certificato Cloudflare)
+  - Analytics attivo (es. Plausible o Cloudflare Web Analytics)
   - Nessun errore 500/404 in produzione
   - Redirect HTTP → HTTPS funzionante
 - [ ] **Sicurezza**
@@ -369,26 +360,10 @@ Completata la landing, l'ordine di sviluppo della piattaforma Sycren:
 ## Note Finali
 
 - Il progetto è in **Fase 0 (WAITLIST)** — nessuna vendita attiva, solo raccolta contatti
-- Al compimento dei 18 anni 🎂, basterà cambiare `NEXT_PUBLIC_LAUNCH_MODE` da `WAITLIST` a `LIVE` e fare un redeploy su Vercel per attivare la modalità commerciale
+- Al compimento dei 18 anni 🎂, basterà cambiare `NEXT_PUBLIC_LAUNCH_MODE` da `WAITLIST` a `LIVE` e fare un redeploy via GitHub Actions per attivare la modalità commerciale
 - Tutto il codice deve essere pulito, tipizzato (TypeScript strict), e accessibile (WCAG AA)
 - Performance è un requisito, non un optional — Landing page deve caricare in < 2s su mobile 3G
-- Ogni commit su `main` triggera deploy automatico su Vercel — verificare sempre Preview Deploy prima di mergiare
-
----
-
-## Related Notes
-
-| Document | Description |
-|---|---|
-| [[landing.README]] | sycren-landing overview |
-| [[landing.requirements]] | Full PRD |
-| [[design-system.README\|sycren-design-system]] | UI dependency (P0) |
-| [[infra.README\|sycren-infra]] | CI/CD pipeline |
-| [[studio.README\|sycren-studio]] | Downstream — quote flow |
-| [[app.README\|sycren-app]] | Downstream — waitlist data |
-| [[db.README\|sycren-db]] | Future DB integration |
-| [[foundation/ROADMAP\|Bootstrap Roadmap]] | Timeline — module #1 |
-| [[foundation/HOME\|Knowledge Base Root]] | Navigation hub |
+- Ogni commit su `main` triggera deploy automatico via GitHub Actions — verificare sempre il corretto funzionamento prima di mergiare
 
 ---
 
