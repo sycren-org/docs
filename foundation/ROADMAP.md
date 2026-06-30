@@ -758,5 +758,25 @@ La sequenza rimane invariata:
 
 ---
 
+## Related Notes
+
+| Modulo | Documentazione Collegata |
+|---|---|
+| **Database Foundation** | [[db.README]] · [[db.requirements]] · [[db.todo]] |
+| **Landing Page** | [[landing.README]] · [[landing.requirements]] · [[landing.todo]] |
+| **Hub Centrale (SSO)** | [[app.README]] · [[app.requirements]] · [[app.todo]] |
+| **Client Portal** | [[studio.README]] · [[studio.requirements]] · [[studio.todo]] |
+| **Cloud Infrastructure** | [[cloud.README]] · [[cloud.requirements]] · [[cloud.todo]] |
+| **Domain Management** | [[domains.README]] · [[domains.requirements]] · [[domains.todo]] |
+| **Security** | [[security.README]] · [[security.requirements]] · [[security.todo]] |
+| **Discord Bot** | [[discord-bot.README]] · [[discord-bot.requirements]] · [[discord-bot.todo]] |
+| **Design System** | [[design-system.README]] · [[design-system.requirements]] · [[design-system.todo]] |
+| **Documentation** | [[docs.README]] · [[docs.requirements]] · [[docs.todo]] |
+| **Infrastructure** | [[infra.README]] · [[infra.requirements]] · [[infra.todo]] |
+| **Foundation Document** | [[foundation/README\|README — Documento di Fondazione v1.0]] |
+| **Navigation Hub** | [[foundation/HOME\|HOME — Knowledge Base Root]] |
+
+---
+
 *Sycren — Bootstrap Roadmap v2.0 — Soluzione B*
 *Giugno 2026 — Documento riservato ai fondatori. Non distribuire senza autorizzazione scritta.*

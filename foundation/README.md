@@ -538,5 +538,25 @@ Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separ
 
 ---
 
+## Related Notes
+
+| Categoria | Documenti Collegati |
+|---|---|
+| **Roadmap Esecutiva** | [[foundation/ROADMAP\|ROADMAP — Bootstrap Roadmap v2.0]] |
+| **Database Foundation** | [[db.README]] · [[db.requirements]] · [[db.todo]] |
+| **Landing Page** | [[landing.README]] · [[landing.requirements]] · [[landing.todo]] |
+| **Hub Centrale (SSO)** | [[app.README]] · [[app.requirements]] · [[app.todo]] |
+| **Client Portal** | [[studio.README]] · [[studio.requirements]] · [[studio.todo]] |
+| **Cloud Infrastructure** | [[cloud.README]] · [[cloud.requirements]] · [[cloud.todo]] |
+| **Domain Management** | [[domains.README]] · [[domains.requirements]] · [[domains.todo]] |
+| **Security** | [[security.README]] · [[security.requirements]] · [[security.todo]] |
+| **Discord Bot** | [[discord-bot.README]] · [[discord-bot.requirements]] · [[discord-bot.todo]] |
+| **Design System** | [[design-system.README]] · [[design-system.requirements]] · [[design-system.todo]] |
+| **Documentation** | [[docs.README]] · [[docs.requirements]] · [[docs.todo]] |
+| **Infrastructure** | [[infra.README]] · [[infra.requirements]] · [[infra.todo]] |
+| **Navigation Hub** | [[foundation/HOME\|HOME — Knowledge Base Root]] |
+
+---
+
 *SYCREN — Documento di Fondazione v1.0 | sycren.com | Giugno 2026*
 *Documento riservato ai fondatori e al management. Non distribuire senza autorizzazione scritta.*
