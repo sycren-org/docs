@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "63b2831b941970f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccb1177d9e2ade80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d329ea36ca60e77f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb1287e13ec7e055",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd3c421f9b13cecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27fef363b7882ca1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "4671985df2369e68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "48ee13dc62d3f937",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6f9886f1acd3a4c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e47312d9b81ec67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dc37d38e9996048",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "165c586c72d96ff9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "91c49d579d13f75f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "f1f17a0d5b0d880a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "06b7d5ce475bb060",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "d329ea36ca60e77f",
+  "lastOpenFiles": [
+    "foundation/README.md",
+    "foundation/HOME.md",
+    "7 - Templates/Project Note.md",
+    "7 - Templates/Permanent Note.md",
+    "7 - Templates/MOC.md",
+    "build-brain.sh",
+    "7 - Templates",
+    "6 - Attachments",
+    "5 - Daily",
+    "4 - Projects/Archive",
+    "4 - Projects/Active",
+    "4 - Projects",
+    "3 - MOCs",
+    "2 - Literature Notes",
+    "1 - Permanent Notes",
+    "foundation/repos/sycren-cloud/cloud.README.md",
+    "foundation/repos/sycren-cloud/cloud.requirements.md",
+    "foundation/repos/sycren-app/app.README.md",
+    "foundation/repos/sycren-app/app.requirements.md",
+    "foundation/repos/sycren-discord-bot/discord-bot.README.md",
+    "foundation/repos/sycren-discord-bot/discord-bot.requirements.md",
+    "foundation/repos/sycren-infra/infra.README.md",
+    "foundation/repos/sycren-infra/infra.requirements.md",
+    "foundation/repos/sycren-design-system/design-system.README.md",
+    "foundation/repos/sycren-design-system/design-system.requirements.md",
+    "foundation/repos/sycren-domains/domains.README.md",
+    "foundation/repos/sycren-domains/domains.requirements.md",
+    "foundation/repos/sycren-db/db.README.md",
+    "foundation/repos/sycren-db/db.requirements.md",
+    "foundation/repos/sycren-security/security.README.md",
+    "foundation/repos/sycren-security/security.requirements.md",
+    "foundation/repos/sycren-studio/studio.README.md",
+    "foundation/repos/sycren-studio/studio.requirements.md",
+    "foundation/repos/sycren-landing/landing.README.md",
+    "foundation/repos/sycren-landing/landing.requirements.md",
+    "foundation/repos/sycren-docs/docs.README.md"
+  ]
+}
