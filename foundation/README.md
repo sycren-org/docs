@@ -1,495 +1,495 @@
 # SYCREN
-### Documento di Fondazione Aziendale v1.0
-> Architettura, Strategia e Modello Operativo — Giugno 2026 — Riservato ai Fondatori
+### Company Founding Document v1.0
+> Architecture, Strategy and Operating Model — June 2026 — Confidential to Founders
 
-> **STATO ATTUALE:** Entrambi i founder hanno 16 anni — Fase 0 (pre-commerciale). Landing page in sviluppo con waitlist. Vedi [ROADMAP.md](./ROADMAP.md) per il piano bootstrap e [repos/](./repos/) per la documentazione di ogni repository.
-
----
-
-## Indice
-
-1. [Identità Aziendale](#1-identità-aziendale)
-2. [Modello di Business e Proprietà Intellettuale](#2-modello-di-business-e-proprietà-intellettuale)
-3. [Investimento e Struttura Finanziaria Iniziale](#3-investimento-e-struttura-finanziaria-iniziale)
-4. [Sede e Strategia di Espansione](#4-sede-e-strategia-di-espansione)
-5. [Divisioni Operative](#5-divisioni-operative)
-6. [Piattaforma Unificata](#6-piattaforma-unificata--appsycrencom)
-7. [Struttura del Team](#7-struttura-del-team)
-8. [Stack Tecnologico](#8-stack-tecnologico)
-9. [Architettura GitHub](#9-architettura-github)
-10. [Presenza Digitale](#10-presenza-digitale-e-canali-di-comunicazione)
+> **CURRENT STATUS:** Both founders are 16 years old — Phase 0 (pre-commercial). Landing page in development with waitlist. See [ROADMAP.md](./ROADMAP.md) for the bootstrap plan and [repos/](./repos/) for each repository's documentation.
 
 ---
 
-## 1. Identità Aziendale
+## Table of Contents
 
-### 1.1 Missione
+1. [Company Identity](#1-company-identity)
+2. [Business Model and Intellectual Property](#2-business-model-and-intellectual-property)
+3. [Investment and Initial Financial Structure](#3-investment-and-initial-financial-structure)
+4. [Headquarters and Expansion Strategy](#4-headquarters-and-expansion-strategy)
+5. [Operating Divisions](#5-operating-divisions)
+6. [Unified Platform](#6-unified-platform--appsycrencom)
+7. [Team Structure](#7-team-structure)
+8. [Tech Stack](#8-tech-stack)
+9. [GitHub Architecture](#9-github-architecture)
+10. [Digital Presence](#10-digital-presence-and-communication-channels)
 
-> Sycren nasce per unificare in un'unica piattaforma integrata tutti i servizi digitali di cui un'azienda o un professionista ha bisogno: sviluppo software, infrastruttura cloud, gestione domini e cybersecurity. L'obiettivo è eliminare la frammentazione tecnologica, offrendo un'esperienza utente coerente, trasparente e scalabile.
+---
 
-### 1.2 Visione
+## 1. Company Identity
 
-Diventare il punto di riferimento mondiale per le aziende e i professionisti che cercano un partner tecnologico completo, affidabile e orientato alla crescita sostenibile. Sycren non è un fornitore di servizi — è un **alleato strategico**.
+### 1.1 Mission
 
-### 1.3 Valori Fondanti
+> Sycren was born to unify all the digital services a business or professional needs into a single integrated platform: software development, cloud infrastructure, domain management and cybersecurity. The goal is to eliminate technological fragmentation by offering a consistent, transparent and scalable user experience.
 
-| Valore | Descrizione | Applicazione Pratica |
+### 1.2 Vision
+
+To become the global reference point for businesses and professionals seeking a complete, reliable technology partner oriented toward sustainable growth. Sycren is not a service provider — it is a **strategic ally**.
+
+### 1.3 Core Values
+
+| Value | Description | Practical Application |
 |---|---|---|
-| **Trasparenza Totale** | Nessun costo nascosto, nessun processo opaco. | Prezzi pubblici, report periodici ai clienti, decisioni documentate. |
-| **Partnership Reale** | Il cliente non è un numero: è un alleato strategico. | Account dedicato, roadmap condivisa, feedback continuo integrato nel prodotto. |
-| **Scalabilità Sostenibile** | Crescita guidata dalla domanda reale, non da pressione finanziaria. | Infrastrutture elastiche, team che cresce con il business, nessun over-engineering. |
-| **Eccellenza Operativa** | Qualità, efficienza e affidabilità in ogni divisione. | SLA definiti, monitoraggio H24, processi standardizzati e documentati. |
+| **Total Transparency** | No hidden costs, no opaque processes. | Public pricing, periodic client reports, documented decisions. |
+| **Real Partnership** | The client is not a number: they are a strategic ally. | Dedicated account, shared roadmap, continuous feedback integrated into the product. |
+| **Sustainable Scalability** | Growth driven by real demand, not financial pressure. | Elastic infrastructure, team that grows with the business, no over-engineering. |
+| **Operational Excellence** | Quality, efficiency and reliability in every division. | Defined SLAs, 24/7 monitoring, standardized and documented processes. |
 
-### 1.4 Informazioni Societarie
+### 1.4 Company Information
 
-| Campo | Valore |
+| Field | Value |
 |---|---|
-| Ragione Sociale | Sycren |
-| Dominio Principale | sycren.com |
-| Lingue Operative | Inglese, Arabo, Francese, Hindi, Italiano |
-| Modello di Business | SaaS + Agency + Managed Services |
-| Mercato di Riferimento | **Internazionale** — PMI, startup, professionisti digitali, agenzie |
-| Target Geografico | Globale |
+| Legal Name | Sycren |
+| Main Domain | sycren.com |
+| Operating Languages | English, Arabic, French, Hindi, Italian |
+| Business Model | SaaS + Agency + Managed Services |
+| Target Market | **International** — SMBs, startups, digital professionals, agencies |
+| Geographic Target | Global |
 
 ---
 
-## 2. Modello di Business e Proprietà Intellettuale
+## 2. Business Model and Intellectual Property
 
-### 2.1 Principio Fondamentale — Licenza d'Uso
+### 2.1 Core Principle — License of Use
 
-Sycren **non vende il codice sorgente** dei propri prodotti e piattaforme. Ogni soluzione sviluppata internamente o nell'ambito di Sycren Studios viene ceduta al cliente esclusivamente sotto forma di **licenza d'utilizzo**.
+Sycren **does not sell the source code** of its products and platforms. Each solution developed internally or as part of Sycren Studios is granted to the client exclusively under a **license of use**.
 
-> Il cliente acquista il diritto di usare il software, non la proprietà del software stesso. Il codice sorgente, l'architettura, i componenti e la logica applicativa rimangono di esclusiva proprietà intellettuale di Sycren.
+> The client purchases the right to use the software, not the ownership of the software itself. The source code, architecture, components and application logic remain the exclusive intellectual property of Sycren.
 
-### 2.2 Struttura delle Licenze
+### 2.2 License Structure
 
-| Tipo di Licenza | Descrizione | Incluso di Default |
+| License Type | Description | Included by Default |
 |---|---|---|
-| **Licenza d'Uso Standard** | Il cliente utilizza il prodotto/servizio sviluppato. Nessun accesso al codice. | ✅ Sì — inclusa nel prezzo del progetto |
-| **Licenza d'Uso Estesa** | Accesso in lettura al codice per audit interni o integrazione con sistemi terzi. | ❌ No — a pagamento, contratto separato |
-| **Trasferimento Codice Sorgente** | Consegna completa del codice sorgente con documentazione tecnica. | ❌ No — a pagamento, contratto separato |
-| **Cessione Diritti d'Autore** | Trasferimento completo della proprietà intellettuale al cliente. | ❌ No — a pagamento, contratto separato |
+| **Standard License of Use** | The client uses the developed product/service. No code access. | ✅ Yes — included in the project price |
+| **Extended License of Use** | Read-only access to code for internal audits or third-party integration. | ❌ No — paid, separate contract |
+| **Source Code Transfer** | Complete delivery of source code with technical documentation. | ❌ No — paid, separate contract |
+| **Copyright Assignment** | Full transfer of intellectual property to the client. | ❌ No — paid, separate contract |
 
-### 2.3 Acquisizione del Codice e dei Diritti d'Autore
+### 2.3 Acquiring Code and Copyright
 
-Il cliente che desidera ottenere il codice sorgente e/o i diritti d'autore di un progetto sviluppato da Sycren deve:
+A client wishing to obtain the source code and/or copyright of a project developed by Sycren must:
 
-- Richiedere formalmente la cessione tramite il proprio Account Manager
-- Ricevere e accettare un **preventivo dedicato** per la valorizzazione della proprietà intellettuale
-- Firmare un **contratto specifico di cessione** che definisce: perimetro del codice ceduto, garanzie, limitazioni d'uso, eventuali royalty residue e condizioni di riservatezza
+- Formally request the transfer through their Account Manager
+- Receive and accept a **dedicated quote** for the valuation of the intellectual property
+- Sign a **specific transfer contract** that defines: scope of the transferred code, warranties, usage limitations, any residual royalties and confidentiality conditions
 
-> **Nota legale:** La cessione parziale o totale dei diritti d'autore non è mai inclusa nei contratti standard di sviluppo o nei piani SaaS. Ogni accordo di questo tipo è negoziato individualmente e documentato in un atto separato.
+> **Legal note:** Partial or total copyright transfer is never included in standard development contracts or SaaS plans. Each such agreement is individually negotiated and documented in a separate deed.
 
-### 2.4 Protezione della Proprietà Intellettuale
+### 2.4 Intellectual Property Protection
 
-- Tutto il codice sviluppato da Sycren è protetto da copyright automatico al momento della creazione
-- I repository dei clienti in `sycren-clients` contengono il codice dei progetti ma la titolarità rimane Sycren fino a eventuale cessione contrattualizzata
-- I contratti standard includono clausole di non reverse-engineering, non redistribuzione e non sublicenza
-- Il marchio **Sycren**, i loghi, i design system e la documentazione tecnica sono asset protetti e non cedibili salvo accordo esplicito
+- All code developed by Sycren is protected by automatic copyright upon creation
+- Client repositories in `sycren-clients` contain project code but ownership remains with Sycren until a contractual transfer
+- Standard contracts include no reverse-engineering, no redistribution and no sub-licensing clauses
+- The **Sycren** brand, logos, design systems and technical documentation are protected assets and cannot be transferred except by explicit agreement
 
 ---
 
-## 3. Investimento e Struttura Finanziaria Iniziale
+## 3. Investment and Initial Financial Structure
 
-### 3.1 Capitale di Fondazione
+### 3.1 Founding Capital
 
-L'investimento iniziale complessivo per la fondazione e l'avvio operativo di Sycren è fissato in:
+The total initial investment for the foundation and operational start of Sycren is set at:
 
-> **€ 15.000 (quindicimila euro)**
+> **€15,000 (fifteen thousand euros)**
 
-Questo capitale copre tutte le spese necessarie alla fase di bootstrap, dall'infrastruttura tecnica alla costituzione legale, fino alle prime attività di marketing.
+This capital covers all expenses necessary for the bootstrap phase, from technical infrastructure to legal setup, up to the first marketing activities.
 
-### 3.2 Allocazione del Budget
+### 3.2 Budget Allocation
 
-| Voce di Spesa | Budget Stimato | Note |
+| Expense Item | Estimated Budget | Notes |
 |---|---|---|
-| Costituzione societaria e consulenza legale | € 5.000 | Notaio, atto costitutivo, registrazione marchio |
-| Infrastruttura cloud e server (anno 1) | € 4.000 | VPS, CDN, storage, domini, SSL, monitoring |
-| Marketing e lancio | € 2.500 | Campagne digitali, contenuti, primo periodo social |
-| Riserva operativa | € 3.500 | Buffer per imprevisti e opportunità nelle prime settimane |
-| **Totale** | **€ 15.000** | |
+| Company setup and legal advisory | €5,000 | Notary, deed of incorporation, trademark registration |
+| Cloud infrastructure and servers (year 1) | €4,000 | VPS, CDN, storage, domains, SSL, monitoring |
+| Marketing and launch | €2,500 | Digital campaigns, content, initial social media period |
+| Operating reserve | €3,500 | Buffer for unforeseen events and opportunities in the first weeks |
+| **Total** | **€15,000** | |
 
-### 3.3 Principi di Gestione Finanziaria
+### 3.3 Financial Management Principles
 
-- Nessuna spesa discrezionale non pianificata senza approvazione del CEO e CFO
-- Rendiconto mensile delle uscite rispetto al budget allocato
-- Il capitale viene preservato il più a lungo possibile: priorità assoluta alla generazione di ricavi prima di nuove spese significative
-- Nessun ricorso a finanziamenti esterni nella fase iniziale salvo opportunità strategiche valutate dal board
+- No unplanned discretionary spending without CEO and CFO approval
+- Monthly expense reporting against allocated budget
+- Capital is preserved as long as possible: absolute priority on revenue generation before new significant expenses
+- No external financing in the initial phase except for strategic opportunities evaluated by the board
 
 ---
 
-## 4. Sede e Strategia di Espansione
+## 4. Headquarters and Expansion Strategy
 
-### 4.1 Approccio Operativo Iniziale — Remote-First
+### 4.1 Initial Operational Approach — Remote-First
 
-Nella fase iniziale, Sycren adotta un modello **completamente remoto** per il team interno. Non verranno affittati uffici privati o spazi dedicati finché l'azienda non raggiungerà una solidità finanziaria adeguata.
+In the initial phase, Sycren adopts a **fully remote** model for the internal team. No private offices or dedicated spaces will be rented until the company achieves adequate financial stability.
 
-> **Soglia di espansione fisica:** Sycren non aprirà uffici propri (spazi privati dedicati) finché non saranno stati raggiunti e mantenuti **€ 100.000 di fatturato mensile per almeno 3 mesi consecutivi**.
+> **Physical expansion threshold:** Sycren will not open its own offices (dedicated private spaces) until **€100,000 monthly revenue has been achieved and maintained for at least 3 consecutive months**.
 
-Questa scelta è deliberata e strategica: preservare il capitale iniziale, mantenere la flessibilità operativa e non vincolare la struttura di costo a spese fisse in una fase in cui il focus deve essere sulla crescita del prodotto e dei clienti.
+This choice is deliberate and strategic: preserve initial capital, maintain operational flexibility, and avoid tying the cost structure to fixed expenses in a phase where the focus must be on product and client growth.
 
-### 4.2 Sede Pubblica — Fuori dall'Italia
+### 4.2 Public Headquarters — Outside Italy
 
-Prima del raggiungimento della soglia di espansione, Sycren disporrà di una **sede pubblica istituzionale localizzata fuori dall'Italia**. Questa sede — tipicamente uno spazio di coworking o un indirizzo commerciale registrato — assolve alle seguenti funzioni:
+Before reaching the expansion threshold, Sycren will have a **public institutional headquarters located outside Italy**. This headquarters — typically a coworking space or registered business address — serves the following functions:
 
-- Indirizzo legale e rappresentanza istituzionale internazionale
-- Credibilità verso clienti e partner internazionali
-- Eventuale domicilio per riunioni occasionali o incontri con clienti
-- Coerenza con il posizionamento di brand globale (non percepito come azienda esclusivamente italiana)
+- Legal address and international institutional representation
+- Credibility with international clients and partners
+- Potential venue for occasional meetings or client meetings
+- Consistency with global brand positioning (not perceived as exclusively Italian)
 
-La scelta della giurisdizione e della città per la sede pubblica sarà definita dal board valutando: vantaggi fiscali, reputazione del mercato di riferimento, facilità di costituzione e accesso a talent pool internazionale.
+The choice of jurisdiction and city for the public headquarters will be defined by the board evaluating: tax advantages, target market reputation, ease of setup and access to international talent pool.
 
-### 4.3 Target di Mercato — Internazionale
+### 4.3 Target Market — International
 
-Il mercato di riferimento di Sycren è **globale**. Il posizionamento, le comunicazioni, il prodotto e il pricing sono progettati per un'audience internazionale.
+Sycren's target market is **global**. Positioning, communications, product and pricing are designed for an international audience.
 
-| Aspetto | Strategia |
+| Aspect | Strategy |
 |---|---|
-| **Lingue** | Inglese come lingua primaria del prodotto e delle comunicazioni esterne e interna del team |
-| **Pricing** | In valuta internazionale (EUR / USD), compatibile con mercati europei, anglosassoni e emergenti |
-| **Supporto** | Fuso orario e copertura pensati per clienti in Europa, UK, USA e Middle East |
-| **Marketing** | Contenuti e campagne in inglese come default; localizzazione secondaria per mercati specifici |
-| **Legale** | Contratti in inglese come standard internazionale, con traduzione italiana su richiesta |
+| **Languages** | English as primary language for product and external and internal team communications |
+| **Pricing** | In international currency (EUR/USD), compatible with European, Anglo-Saxon and emerging markets |
+| **Support** | Timezone and coverage designed for clients in Europe, UK, USA and Middle East |
+| **Marketing** | Content and campaigns in English as default; secondary localization for specific markets |
+| **Legal** | Contracts in English as international standard, with Italian translation on request |
 
 ---
 
-## 5. Divisioni Operative
+## 5. Operating Divisions
 
-Sycren è strutturata in quattro divisioni specializzate, ciascuna con una piattaforma dedicata, che convergono in un'unica dashboard centrale (`app.sycren.com`).
+Sycren is structured into four specialized divisions, each with a dedicated platform, converging into a single central dashboard (`app.sycren.com`).
 
 ---
 
 ### 5.1 Sycren Studios — `studio.sycren.com`
 
-**Posizionamento:** Divisione agency e sviluppo custom. Si rivolge ad aziende e professionisti che necessitano di soluzioni digitali su misura: siti web, applicazioni, software gestionali, integrazioni API e consulenza tecnica.
+**Positioning:** Agency and custom development division. Serves businesses and professionals needing tailor-made digital solutions: websites, applications, management software, API integrations and technical consulting.
 
-#### Funzionalità della Piattaforma
+#### Platform Features
 
-- Portale di richiesta preventivi con form strutturato (tipologia progetto, budget, scadenze, allegati)
-- Sistema di onboarding clienti con raccolta requisiti guidata
-- Dashboard progetto: avanzamento lavori, milestone, deliverable, changelog
-- Area condivisione file e asset (design, brief, documentazione tecnica)
-- Canale di comunicazione dedicato cliente ↔ team (chat + notifiche email)
-- Accettazione preventivi e firma digitale contratti
-- Storico progetti completati e documentazione finale
+- Quote request portal with structured form (project type, budget, deadlines, attachments)
+- Client onboarding system with guided requirements collection
+- Project dashboard: progress tracking, milestones, deliverables, changelog
+- File and asset sharing area (design, briefs, technical documentation)
+- Dedicated client ↔ team communication channel (chat + email notifications)
+- Quote acceptance and digital contract signing
+- Completed project history and final documentation
 
-#### Servizi Erogati
+#### Services Offered
 
-- Sviluppo web (landing page, siti aziendali, e-commerce, portali)
-- Sviluppo applicazioni web e mobile (React, Next.js, Node.js)
-- Consulenza tecnica e audit di sistemi esistenti
-- Integrazioni API e automazioni
-- Manutenzione e supporto continuativo
-- Design UI/UX (Figma → implementazione)
+- Web development (landing pages, business websites, e-commerce, portals)
+- Web and mobile application development (React, Next.js, Node.js)
+- Technical consulting and audit of existing systems
+- API integrations and automations
+- Maintenance and ongoing support
+- UI/UX design (Figma → implementation)
 
-#### KPI
+#### KPIs
 
-| Metrica | Target |
+| Metric | Target |
 |---|---|
-| Tempo medio risposta preventivo | < 24 ore lavorative |
-| Soddisfazione cliente post-progetto | > 4.5 / 5 |
-| Percentuale progetti consegnati in tempo | > 90% |
+| Average quote response time | < 24 business hours |
+| Post-project client satisfaction | > 4.5 / 5 |
+| Percentage of projects delivered on time | > 90% |
 
 ---
 
 ### 5.2 Sycren Cloud — `cloud.sycren.com`
 
-**Posizionamento:** Divisione infrastruttura cloud e hosting gestito. Offre soluzioni di hosting, VPS, storage e deploy di applicazioni con focus su performance, affidabilità e semplicità di gestione.
+**Positioning:** Cloud infrastructure and managed hosting division. Offers hosting, VPS, storage and application deployment solutions with a focus on performance, reliability and ease of management.
 
-#### Funzionalità della Piattaforma
+#### Platform Features
 
-- Pannello di controllo hosting: gestione file, database, domini, SSL
-- Provisioning VPS self-service con selezione risorse (CPU, RAM, disco, region)
-- Deploy automatizzato da repository GitHub (CI/CD integrato)
-- Monitoraggio uptime e performance in tempo reale (grafici, alert)
-- Backup automatici con retention configurabile e restore one-click
-- Gestione certificati SSL (emissione, rinnovo automatico)
-- Logs di accesso e diagnostica applicativa
-- Scaling orizzontale e verticale delle risorse
-- Storage oggetti (S3-compatibile) per file statici, media, backup
+- Hosting control panel: file, database, domain and SSL management
+- Self-service VPS provisioning with resource selection (CPU, RAM, disk, region)
+- Automated deployment from GitHub repositories (integrated CI/CD)
+- Real-time uptime and performance monitoring (graphs, alerts)
+- Automatic backups with configurable retention and one-click restore
+- SSL certificate management (issuance, auto-renewal)
+- Access logs and application diagnostics
+- Horizontal and vertical resource scaling
+- Object storage (S3-compatible) for static files, media, backups
 
-#### Piani di Servizio
+#### Service Plans
 
-| Piano | Target | Caratteristiche Principali |
+| Plan | Target | Key Features |
 |---|---|---|
-| **Starter** | Sviluppatori, portfolio personali | Hosting condiviso, 1 dominio, SSL, backup settimanale |
-| **Business** | PMI, SaaS in crescita | VPS dedicato, deploy automatico, backup giornaliero, monitoring |
-| **Enterprise** | Aziende strutturate | Cluster gestito, SLA 99.9%, supporto prioritario, scaling automatico |
-| **Custom** | Grandi volumi o esigenze specifiche | Architettura su misura, on-premise hybrid, supporto dedicato |
+| **Starter** | Developers, personal portfolios | Shared hosting, 1 domain, SSL, weekly backup |
+| **Business** | SMBs, growing SaaS | Dedicated VPS, auto-deploy, daily backup, monitoring |
+| **Enterprise** | Established companies | Managed cluster, 99.9% SLA, priority support, auto-scaling |
+| **Custom** | High volume or specific needs | Tailored architecture, on-premise hybrid, dedicated support |
 
-#### KPI
+#### KPIs
 
 | KPI | Target |
 |---|---|
-| Uptime garantito | 99.9% (SLA contrattuale) |
-| Tempo ripristino in caso di guasto (RTO) | < 1 ora |
-| Recovery Point Objective (RPO) | < 24 ore |
-| Tempo provisioning nuovo VPS | < 5 minuti |
+| Guaranteed uptime | 99.9% (contractual SLA) |
+| Recovery Time Objective (RTO) | < 1 hour |
+| Recovery Point Objective (RPO) | < 24 hours |
+| New VPS provisioning time | < 5 minutes |
 
 ---
 
 ### 5.3 Sycren Domains — `domains.sycren.com`
 
-**Posizionamento:** Registrar di domini con gestione DNS avanzata. Permette agli utenti di cercare, registrare, rinnovare e trasferire domini, con strumenti professionali per la configurazione DNS.
+**Positioning:** Domain registrar with advanced DNS management. Allows users to search, register, renew and transfer domains, with professional tools for DNS configuration.
 
-#### Funzionalità della Piattaforma
+#### Platform Features
 
-- Motore di ricerca disponibilità domini (TLD multipli: .com, .it, .eu, .io, .dev, ecc.)
-- Registrazione domini con flusso guidato e checkout integrato
-- Pannello DNS avanzato: gestione record A, AAAA, CNAME, MX, TXT, NS, SRV
-- Rinnovo automatico con notifiche pre-scadenza (90, 30, 7 giorni)
-- Trasferimento domini in ingresso e in uscita (codice EPP)
-- Protezione privacy WHOIS (nasconde dati registrante)
-- DNS propagation checker integrato
-- Redirect URL e URL masking
-- Integrazione diretta con Sycren Cloud (puntamento automatico)
+- Domain availability search engine (multiple TLDs: .com, .it, .eu, .io, .dev, etc.)
+- Domain registration with guided flow and integrated checkout
+- Advanced DNS panel: A, AAAA, CNAME, MX, TXT, NS, SRV record management
+- Auto-renewal with pre-expiry notifications (90, 30, 7 days)
+- Domain transfer in and out (EPP code)
+- WHOIS privacy protection (hides registrant data)
+- Integrated DNS propagation checker
+- URL redirect and URL masking
+- Direct integration with Sycren Cloud (auto-pointing)
 
-#### Integrazioni Cross-Platform
+#### Cross-Platform Integrations
 
-- Collegamento diretto con `cloud.sycren.com` per associare dominio a hosting/VPS
-- Collegamento con `security.sycren.com` per attivazione protezione DDoS sul dominio
-- Notifiche unificate tramite `app.sycren.com`
+- Direct connection with `cloud.sycren.com` to associate domain with hosting/VPS
+- Connection with `security.sycren.com` for enabling DDoS protection on the domain
+- Unified notifications via `app.sycren.com`
 
-#### KPI
+#### KPIs
 
 | KPI | Target |
 |---|---|
-| Tempo propagazione DNS | < 15 minuti (globale < 48h) |
-| Disponibilità pannello DNS | 99.95% |
-| Notifica pre-scadenza domini | Automatica a 90 / 30 / 7 giorni |
+| DNS propagation time | < 15 minutes (global < 48h) |
+| DNS panel availability | 99.95% |
+| Domain pre-expiry notification | Automatic at 90 / 30 / 7 days |
 
 ---
 
 ### 5.4 Sycren Security — `security.sycren.com`
 
-**Posizionamento:** Layer di sicurezza gestita per infrastrutture digitali. Protegge domini, server e applicazioni attraverso firewall, anti-DDoS, monitoraggio continuo e analisi delle vulnerabilità.
+**Positioning:** Managed security layer for digital infrastructures. Protects domains, servers and applications through firewall, anti-DDoS, continuous monitoring and vulnerability analysis.
 
-#### Funzionalità della Piattaforma
+#### Platform Features
 
-- Dashboard di sicurezza unificata: panoramica minacce, eventi, alert
-- Firewall applicativo (WAF): filtraggio traffico malevolo, regole custom
-- Protezione Anti-DDoS: mitigazione automatica attacchi volumetrici e applicativi
-- Monitoring continuo H24: uptime, anomalie di traffico, tentativi di intrusione
-- Log centralizzati: accessi, errori, eventi di sicurezza con ricerca e export
-- Sistema di alerting: notifiche real-time via email, Telegram, webhook
-- Vulnerability assessment: scansione periodica delle superfici di attacco
-- Report di sicurezza mensili con executive summary e raccomandazioni
-- Gestione SSL/TLS avanzata: cipher suite, HSTS, certificate transparency
+- Unified security dashboard: threat overview, events, alerts
+- Web Application Firewall (WAF): malicious traffic filtering, custom rules
+- Anti-DDoS protection: automatic mitigation of volumetric and application-layer attacks
+- 24/7 continuous monitoring: uptime, traffic anomalies, intrusion attempts
+- Centralized logs: access, errors, security events with search and export
+- Alerting system: real-time notifications via email, Telegram, webhook
+- Vulnerability assessment: periodic scanning of attack surfaces
+- Monthly security reports with executive summary and recommendations
+- Advanced SSL/TLS management: cipher suites, HSTS, certificate transparency
 
-#### Servizi Avanzati
+#### Advanced Services
 
-- Penetration testing su richiesta (white-box, black-box)
-- Incident response: supporto in caso di violazione o attacco in corso
-- Consulenza GDPR e compliance normativa
-- Security audit di applicazioni sviluppate da Sycren Studios
+- Penetration testing on request (white-box, black-box)
+- Incident response: support in case of breach or ongoing attack
+- GDPR and regulatory compliance consulting
+- Security audit of applications developed by Sycren Studios
 
-#### KPI
+#### KPIs
 
 | KPI | Target |
 |---|---|
-| Tempo rilevamento minaccia | < 60 secondi |
-| Tempo mitigazione attacco DDoS | < 3 minuti |
-| Disponibilità sistema di monitoring | 99.99% |
-| Frequenza report sicurezza | Mensile + on-demand |
+| Threat detection time | < 60 seconds |
+| DDoS attack mitigation time | < 3 minutes |
+| Monitoring system availability | 99.99% |
+| Security report frequency | Monthly + on-demand |
 
 ---
 
-## 6. Piattaforma Unificata — `app.sycren.com`
+## 6. Unified Platform — `app.sycren.com`
 
-Il cuore dell'ecosistema Sycren: un'unica dashboard che aggrega e gestisce tutti i servizi delle quattro divisioni attraverso un **login singolo (SSO)**.
+The heart of the Sycren ecosystem: a single dashboard that aggregates and manages all services across the four divisions through a **single sign-on (SSO)**.
 
-### 6.1 Obiettivo Strategico
+### 6.1 Strategic Objective
 
-L'app unificata elimina la frammentazione che caratterizza l'acquisto di servizi digitali da provider multipli. L'utente accede a un unico ambiente dove può gestire progetti Studios, monitorare server Cloud, rinnovare domini e controllare la sicurezza della propria infrastruttura.
+The unified app eliminates the fragmentation that characterizes purchasing digital services from multiple providers. The user accesses a single environment where they can manage Studios projects, monitor Cloud servers, renew domains and control their infrastructure security.
 
-### 6.2 Funzionalità Core
+### 6.2 Core Features
 
-#### Autenticazione e Identità
-- Single Sign-On (SSO): un solo account per accedere a tutte le divisioni
-- Autenticazione a due fattori (2FA) obbligatoria per account business
-- Gestione ruoli e permessi: owner, admin, developer, viewer
-- Log degli accessi e sessioni attive
+#### Authentication and Identity
+- Single Sign-On (SSO): one account to access all divisions
+- Two-factor authentication (2FA) mandatory for business accounts
+- Role and permission management: owner, admin, developer, viewer
+- Access logs and active sessions
 
-#### Dashboard Principale
-- Panoramica stato servizi attivi (cloud, domini, security, progetti)
-- Widget personalizzabili per ogni divisione
-- Feed notifiche unificato (alert sicurezza, scadenze domini, aggiornamenti progetti)
-- Quick actions: deploy, rinnovo dominio, apertura ticket, richiesta preventivo
+#### Main Dashboard
+- Active services status overview (cloud, domains, security, projects)
+- Customizable widgets for each division
+- Unified notification feed (security alerts, domain expirations, project updates)
+- Quick actions: deploy, domain renewal, ticket opening, quote request
 
-#### Billing e Pagamenti
-- Storico fatture e pagamenti per tutti i servizi
-- Metodi di pagamento multipli (carta, SEPA, bonifico)
-- Fatturazione unificata mensile o per singolo servizio
-- Preventivi digitali con accettazione in-app
-- Alert soglie di consumo (cloud computing, storage)
+#### Billing and Payments
+- Invoice and payment history for all services
+- Multiple payment methods (card, SEPA, wire transfer)
+- Unified monthly billing or per-service billing
+- Digital quotes with in-app acceptance
+- Consumption threshold alerts (cloud computing, storage)
 
-#### Supporto e Comunicazione
-- Sistema di ticket categorizzato per divisione e priorità
-- Chat live con il team (ore lavorative)
-- Knowledge base e documentazione tecnica
-- Notifiche push, email e Telegram configurabili per tipologia di evento
+#### Support and Communication
+- Ticket system categorized by division and priority
+- Live chat with the team (business hours)
+- Knowledge base and technical documentation
+- Push, email and Telegram notifications configurable by event type
 
-### 6.3 Architettura dei Sottodomini
+### 6.3 Subdomain Architecture
 
-| Sottodominio | Funzione Principale | Utenti Target |
+| Subdomain | Main Function | Target Users |
 |---|---|---|
-| `app.sycren.com` | Hub centrale: SSO, dashboard, billing, notifiche | Tutti gli utenti registrati |
-| `studio.sycren.com` | Richieste, preventivi, gestione progetti custom | Clienti Studios, team dev |
-| `cloud.sycren.com` | Hosting, VPS, deploy, storage, monitoring | Developer, sysadmin, PM |
-| `domains.sycren.com` | Ricerca, registrazione, gestione DNS e rinnovi | Tutti gli utenti |
-| `security.sycren.com` | Firewall, anti-DDoS, log, alert, report | Admin, CTO, security team |
+| `app.sycren.com` | Central hub: SSO, dashboard, billing, notifications | All registered users |
+| `studio.sycren.com` | Quotes, proposals, custom project management | Studios clients, dev team |
+| `cloud.sycren.com` | Hosting, VPS, deploy, storage, monitoring | Developers, sysadmins, PMs |
+| `domains.sycren.com` | Search, registration, DNS management and renewals | All users |
+| `security.sycren.com` | Firewall, anti-DDoS, logs, alerts, reports | Admins, CTOs, security teams |
 
 ---
 
-## 7. Struttura del Team
+## 7. Team Structure
 
-### 7.1 Leadership Fondante
+### 7.1 Founding Leadership
 
-| Nome | Ruolo | Sigla | Responsabilità Principali |
+| Name | Role | Abbreviation | Main Responsibilities |
 |---|---|---|---|
-| Paciello Angelo | Founder & CEO | CEO | Visione strategica, rappresentanza aziendale, investor relations, direzione generale |
-| Russo Cosimo | Co-Founder & Managing Director | MD | Operazioni quotidiane, gestione team, esecuzione strategia, HR |
-| Gallo Rocco Pio | Co-Founder & Chief Product Officer | CPO | Prodotto, UX/UI, roadmap piattaforma unificata, feedback loop clienti |
-| Nicolò D'Aniello | Chief Technology Officer | CTO | Architettura tecnica, scelta stack, infrastruttura, sicurezza sistemistica |
+| Paciello Angelo | Founder & CEO | CEO | Strategic vision, company representation, investor relations, general management |
+| Russo Cosimo | Co-Founder & Managing Director | MD | Daily operations, team management, strategy execution, HR |
+| Gallo Rocco Pio | Co-Founder & Chief Product Officer | CPO | Product, UX/UI, unified platform roadmap, client feedback loop |
+| Nicolò D'Aniello | Chief Technology Officer | CTO | Technical architecture, stack selection, infrastructure, systems security |
 
-### 7.2 Struttura Operativa
+### 7.2 Operational Structure
 
-#### Engineering & Sviluppo
+#### Engineering & Development
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| Lead Developer | Guida tecnica del team, code review, architettura applicativa, mentoring sviluppatori |
-| Frontend Developer | Implementazione UI/UX (Next.js, React, Tailwind), design system, accessibilità |
-| Backend Developer | API RESTful/GraphQL, logica di business, integrazioni terze parti (Node.js, Fastify, NestJS) |
-| DevOps Engineer | Pipeline CI/CD (GitHub Actions), containerizzazione (Docker/Kubernetes), automazione infrastruttura |
-| Database Administrator | Schema design, ottimizzazione query, backup, migrazione dati (PostgreSQL, MongoDB, Redis) |
+| Lead Developer | Technical team guidance, code review, application architecture, developer mentoring |
+| Frontend Developer | UI/UX implementation (Next.js, React, Tailwind), design system, accessibility |
+| Backend Developer | RESTful/GraphQL APIs, business logic, third-party integrations (Node.js, Fastify, NestJS) |
+| DevOps Engineer | CI/CD pipelines (GitHub Actions), containerization (Docker/Kubernetes), infrastructure automation |
+| Database Administrator | Schema design, query optimization, backup, data migration (PostgreSQL, MongoDB, Redis) |
 
 #### Product & Design
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| Product Manager | Gestione roadmap, sprint planning, prioritizzazione backlog, coordinamento stakeholder |
-| UI/UX Designer | Wireframe, prototipazione (Figma), design system, user testing, handoff sviluppatori |
+| Product Manager | Roadmap management, sprint planning, backlog prioritization, stakeholder coordination |
+| UI/UX Designer | Wireframes, prototyping (Figma), design system, user testing, developer handoff |
 
 #### Cloud & Infrastructure
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| Cloud Engineer | Provisioning e gestione VPS, deploy applicazioni, storage, ottimizzazione costi cloud |
-| System Administrator | Manutenzione server, SSH, uptime, patch management, disaster recovery |
+| Cloud Engineer | VPS provisioning and management, application deployment, storage, cloud cost optimization |
+| System Administrator | Server maintenance, SSH, uptime, patch management, disaster recovery |
 
 #### Security
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| Security Engineer | Configurazione firewall/WAF, monitoraggio H24, gestione alert, hardening sistemi |
-| Penetration Tester | Vulnerability assessment, ethical hacking, report tecnici, remediation guideline |
+| Security Engineer | Firewall/WAF configuration, 24/7 monitoring, alert management, system hardening |
+| Penetration Tester | Vulnerability assessment, ethical hacking, technical reports, remediation guidelines |
 
 #### Business, Marketing & Growth
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| Chief Marketing Officer (CMO) | Brand identity, strategie di crescita, campagne paid/organic, posizionamento |
-| Social Media Manager | Gestione canali (Instagram, TikTok, X, YouTube), content calendar, community |
-| Content Creator | Articoli blog, newsletter, video tutorial, case study, documentazione pubblica |
-| Sales Manager | Acquisizione nuovi clienti, gestione pipeline preventivi (Studios), partnership |
-| Account Manager | Gestione clienti esistenti, upselling, churn prevention, NPS |
+| Chief Marketing Officer (CMO) | Brand identity, growth strategies, paid/organic campaigns, positioning |
+| Social Media Manager | Channel management (Instagram, TikTok, X, YouTube), content calendar, community |
+| Content Creator | Blog articles, newsletter, video tutorials, case studies, public documentation |
+| Sales Manager | New client acquisition, quote pipeline management (Studios), partnerships |
+| Account Manager | Existing client management, upselling, churn prevention, NPS |
 
 #### Finance & Legal
 
-| Ruolo | Responsabilità |
+| Role | Responsibilities |
 |---|---|
-| CFO / Finance Manager | Bilancio, billing automatizzato, pagamenti, previsioni finanziarie, reportistica |
-| Legal Advisor | Contratti clienti e fornitori, privacy policy, GDPR compliance, protezione IP |
+| CFO / Finance Manager | Budget, automated billing, payments, financial forecasting, reporting |
+| Legal Advisor | Client and supplier contracts, privacy policy, GDPR compliance, IP protection |
 
 ---
 
-## 8. Stack Tecnologico
+## 8. Tech Stack
 
 ### 8.1 Frontend
 
-| Tecnologia | Utilizzo |
+| Technology | Usage |
 |---|---|
-| HTML5 / CSS3 | Base markup e styling per pagine statiche e template |
-| JavaScript (ES2024+) | Logica client-side, interattività, integrazione API |
-| React | Libreria UI per componenti riutilizzabili e SPA |
-| Next.js | Framework React per SSR, SSG, routing, ottimizzazione SEO |
-| Vite + React | Sviluppo rapido e build ottimizzato per applicazioni SPA |
-| Tailwind CSS | Utility-first CSS per design system coerente e rapid prototyping |
-| Bootstrap | Framework CSS per layout responsive e componenti UI standard |
+| HTML5 / CSS3 | Base markup and styling for static pages and templates |
+| JavaScript (ES2024+) | Client-side logic, interactivity, API integration |
+| React | UI library for reusable components and SPAs |
+| Next.js | React framework for SSR, SSG, routing, SEO optimization |
+| Vite + React | Fast development and optimized build for SPA applications |
+| Tailwind CSS | Utility-first CSS for consistent design system and rapid prototyping |
+| Bootstrap | CSS framework for responsive layouts and standard UI components |
 
 ### 8.2 Backend
 
-| Tecnologia | Utilizzo |
+| Technology | Usage |
 |---|---|
-| Node.js | Runtime JavaScript server-side, base per tutti i servizi backend |
-| Express.js | Microservizi leggeri, API semplici, middleware HTTP |
-| Fastify | API ad alte performance con schema validation (JSON Schema) |
-| NestJS | Applicazioni enterprise con architettura modulare (DI, decorators) |
-| Prisma ORM | Accesso database type-safe, migrazioni, schema-first development. Schema centralizzato in `sycren-db` e condiviso tra tutte le applicazioni |
+| Node.js | Server-side JavaScript runtime, base for all backend services |
+| Express.js | Lightweight microservices, simple APIs, HTTP middleware |
+| Fastify | High-performance APIs with schema validation (JSON Schema) |
+| NestJS | Enterprise applications with modular architecture (DI, decorators) |
+| Prisma ORM | Type-safe database access, migrations, schema-first development. Centralized schema in `sycren-db` shared across all applications |
 
-### 8.3 Database
+### 8.3 Databases
 
-| Database | Caso d'Uso |
+| Database | Use Case |
 |---|---|
-| PostgreSQL | Database relazionale principale: utenti, billing, contratti, domini |
-| MySQL / MariaDB | Applicazioni clienti che richiedono compatibilità MySQL |
-| SQLite | Sviluppo locale, testing, applicazioni embedded leggere |
-| MongoDB | Dati non strutturati: log, configurazioni, contenuti CMS |
-| Redis | Cache, sessioni, code di messaggi, real-time pub/sub |
+| PostgreSQL | Main relational database: users, billing, contracts, domains |
+| MySQL / MariaDB | Client applications requiring MySQL compatibility |
+| SQLite | Local development, testing, lightweight embedded applications |
+| MongoDB | Unstructured data: logs, configurations, CMS content |
+| Redis | Cache, sessions, message queues, real-time pub/sub |
 
-### 8.4 Linguaggi di Programmazione
+### 8.4 Programming Languages
 
-| Linguaggio | Utilizzo in Sycren |
+| Language | Usage in Sycren |
 |---|---|
-| Python | Automazioni, data processing, scripting DevOps, ML/AI futuri |
-| Rust | Componenti ad alte performance, sicurezza critica, tools CLI |
-| Go | Microservizi cloud-native, tool di sistema, applicazioni concorrenti |
-| C | Ottimizzazioni a basso livello, interazione con hardware/kernel |
+| Python | Automations, data processing, DevOps scripting, future ML/AI |
+| Rust | High-performance components, security-critical code, CLI tools |
+| Go | Cloud-native microservices, system tools, concurrent applications |
+| C | Low-level optimizations, hardware/kernel interaction |
 
 ### 8.5 DevOps & Tooling
 
-| Tool | Ruolo |
+| Tool | Role |
 |---|---|
-| Docker | Containerizzazione di tutti i servizi per consistenza ambiente |
-| Kubernetes | Orchestrazione container in produzione, scaling automatico, rolling deploy |
-| Git | Version control per tutto il codice sorgente interno e dei clienti |
-| GitHub Actions | CI/CD: test automatici, build, deploy su push/merge |
-| SSH | Accesso sicuro ai server, tunneling, gestione remota infrastruttura |
-| Figma | Design collaborativo, prototipazione, handoff sviluppatori |
+| Docker | Containerization of all services for environment consistency |
+| Kubernetes | Container orchestration in production, auto-scaling, rolling deployments |
+| Git | Version control for all internal and client source code |
+| GitHub Actions | CI/CD: automated tests, build, deploy on push/merge |
+| SSH | Secure server access, tunneling, remote infrastructure management |
+| Figma | Collaborative design, prototyping, developer handoff |
 
 ---
 
-## 9. Architettura GitHub
+## 9. GitHub Architecture
 
-Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separate**, con policy di accesso differenziate per proteggere sia i sistemi interni che i progetti dei clienti.
+Sycren's source code is organized into **two separate GitHub organizations**, with differentiated access policies to protect both internal systems and client projects.
 
-### 9.1 Organizzazione: `sycren`
+### 9.1 Organization: `sycren`
 
-**Scopo:** Contiene tutti i repository dei sistemi interni di Sycren: piattaforma unificata, strumenti DevOps, librerie condivise, documentazione tecnica e infrastruttura.
+**Purpose:** Contains all repositories for Sycren's internal systems: unified platform, DevOps tools, shared libraries, technical documentation and infrastructure.
 
-#### Repository
+#### Repositories
 
-| Repository | Visibilità | Descrizione |
+| Repository | Visibility | Description |
 |---|---|---|
-| `sycren-landing` | Pubblico | Codebase della landing page (sycren.com) |
-| `sycren-app` | Privato | Codebase dell'hub centrale (app.sycren.com): SSO, dashboard, billing |
-| `sycren-studio` | Privato | Piattaforma Studios: gestione preventivi, progetti, client portal |
-| `sycren-cloud` | Privato | Pannello Cloud: provisioning VPS, deploy, monitoring, storage |
-| `sycren-domains` | Privato | Sistema Domains: registrar, pannello DNS, rinnovi automatici |
-| `sycren-security` | Privato | Piattaforma Security: WAF config, monitoring, alerting, log viewer |
-| `sycren-docs` | Pubblico | Documentazione pubblica per sviluppatori e clienti |
-| `sycren-design-system` | Privato | Componenti UI condivisi, token design, Storybook |
-| `sycren-db` | Privato | Pacchetto condiviso: schema Prisma, migrazioni, tipi e utility DB per tutte le applicazioni |
-| `sycren-infra` | Privato | Configurazioni Kubernetes, Docker Compose, IaC (Terraform/Ansible) |
-| `sycren-discord-bot` | Privato | Bot Discord privato con AI per moderazione, ticket, community management e automazione server |
+| `sycren-landing` | Public | Landing page codebase (sycren.com) |
+| `sycren-app` | Private | Central hub codebase (app.sycren.com): SSO, dashboard, billing |
+| `sycren-studio` | Private | Studios platform: quote management, projects, client portal |
+| `sycren-cloud` | Private | Cloud panel: VPS provisioning, deploy, monitoring, storage |
+| `sycren-domains` | Private | Domains system: registrar, DNS panel, auto-renewals |
+| `sycren-security` | Private | Security platform: WAF config, monitoring, alerting, log viewer |
+| `sycren-docs` | Public | Public documentation for developers and clients |
+| `sycren-design-system` | Private | Shared UI components, design tokens, Storybook |
+| `sycren-db` | Private | Shared package: Prisma schema, migrations, types and DB utilities for all applications |
+| `sycren-infra` | Private | Kubernetes configurations, Docker Compose, IaC (Terraform/Ansible) |
+| `sycren-discord-bot` | Private | Private Discord bot with AI for moderation, tickets, community management and server automation |
 
-#### Team
+#### Teams
 
-| Team | Membri | Repository | Permessi |
+| Team | Members | Repositories | Permissions |
 |---|---|---|---|
-| `founders` | CEO, MD, CPO, CTO | Tutti | Admin |
-| `engineering` | Lead Dev, Frontend, Backend, DevOps, DBA | Tutti i repo interni | Write |
+| `founders` | CEO, MD, CPO, CTO | All | Admin |
+| `engineering` | Lead Dev, Frontend, Backend, DevOps, DBA | All internal repos | Write |
 | `product-design` | PM, UI/UX Designer | app, studio, design-system, docs | Write |
 | `cloud-infra` | Cloud Engineer, SysAdmin | cloud, infra, security | Write |
 | `community` | Social Media Manager, Content Creator | discord-bot, docs | Write |
@@ -498,54 +498,54 @@ Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separ
 
 ---
 
-### 9.2 Organizzazione: `sycren-clients`
+### 9.2 Organization: `sycren-clients`
 
-**Scopo:** Contiene i repository dei progetti sviluppati per i clienti da Sycren Studios. Ogni cliente ha un repository privato dedicato, accessibile solo ai developer assegnati e al cliente stesso.
+**Purpose:** Contains repositories for projects developed for Sycren Studios clients. Each client has a dedicated private repository, accessible only to the assigned developers and the client themselves.
 
-#### Repository
+#### Repositories
 
-| Nomenclatura | Visibilità | Descrizione |
+| Naming Convention | Visibility | Description |
 |---|---|---|
-| `nome-cliente/nome-progetto` | Privato | Repository dedicato al singolo progetto del cliente |
+| `client-name/project-name` | Private | Dedicated repository for the client's individual project |
 
-#### Team
+#### Teams
 
-| Team | Membri | Repository | Permessi |
+| Team | Members | Repositories | Permissions |
 |---|---|---|---|
-| `admin` | CEO, MD, CTO, Lead Dev | Tutti i repository clienti | Admin — accesso totale per supervisione e supporto |
-| `[cliente]-team` | Account del cliente + developer assegnati | Solo il repository del cliente specifico | Write — accesso esclusivo e isolato per progetto |
+| `admin` | CEO, MD, CTO, Lead Dev | All client repositories | Admin — full access for supervision and support |
+| `[client]-team` | Client account + assigned developers | Only the specific client's repository | Write — exclusive and isolated access per project |
 
-> **Principio di sicurezza:** Ogni team cliente è completamente isolato. Un developer assegnato al progetto A non ha visibilità sul progetto B. L'accesso è revocato automaticamente al termine del progetto. Il team `admin` mantiene visibilità completa per garantire qualità e continuità operativa.
+> **Security principle:** Each client team is completely isolated. A developer assigned to project A has no visibility of project B. Access is automatically revoked upon project completion. The `admin` team maintains full visibility to ensure quality and operational continuity.
 
 ---
 
-## 10. Presenza Digitale e Canali di Comunicazione
+## 10. Digital Presence and Communication Channels
 
-### 10.1 Canali Social
+### 10.1 Social Channels
 
-| Canale | Tipo | Obiettivo Principale | Contenuto |
+| Channel | Type | Main Objective | Content |
 |---|---|---|---|
-| **Instagram** | Social visivo | Brand awareness, portfolio progetti | Case study visuali, behind the scenes, UI showcase |
-| **TikTok** | Video short-form | Reach giovane, viralità | Tips tecnici, tutorial veloci, cultura aziendale |
-| **X (Twitter)** | Microblogging | Tech community, aggiornamenti prodotto | Thread tecnici, annunci, opinioni di settore |
-| **YouTube** | Video long-form | Educazione, authority tecnica | Tutorial, webinar, presentazioni prodotto |
-| **Telegram** | Messaggistica | Aggiornamenti diretti agli utenti | Status servizi, release note, offerte clienti |
-| **WhatsApp** | Messaggistica business | Supporto clienti diretto | Assistenza rapida, follow-up commerciali |
-| **GitHub** | Developer platform | Open source, credibilità tecnica | Contributi pubblici, documentazione, tool |
-| **Discord** | Community | Engagement community sviluppatori | Supporto peer-to-peer, feedback prodotto, eventi |
-| **Newsletter** | Email marketing | Retention, aggiornamenti approfonditi | Release note mensili, articoli tecnici, offerte |
-| **Blog** | Content marketing | SEO, thought leadership | Guide tecniche, case study, aggiornamenti aziendali |
+| **Instagram** | Visual social | Brand awareness, project portfolio | Visual case studies, behind the scenes, UI showcase |
+| **TikTok** | Short-form video | Youth reach, virality | Tech tips, quick tutorials, company culture |
+| **X (Twitter)** | Microblogging | Tech community, product updates | Technical threads, announcements, industry opinions |
+| **YouTube** | Long-form video | Education, technical authority | Tutorials, webinars, product presentations |
+| **Telegram** | Messaging | Direct user updates | Service status, release notes, client offers |
+| **WhatsApp** | Business messaging | Direct client support | Quick assistance, commercial follow-ups |
+| **GitHub** | Developer platform | Open source, technical credibility | Public contributions, documentation, tools |
+| **Discord** | Community | Developer community engagement | Peer-to-peer support, product feedback, events |
+| **Newsletter** | Email marketing | Retention, in-depth updates | Monthly release notes, technical articles, offers |
+| **Blog** | Content marketing | SEO, thought leadership | Technical guides, case studies, company updates |
 
 ---
 
 ## Related Notes
 
-| Categoria | Documenti Collegati |
+| Category | Related Documents |
 |---|---|
-| **Roadmap Esecutiva** | [[foundation/ROADMAP\|ROADMAP — Bootstrap Roadmap v2.0]] |
+| **Executive Roadmap** | [[foundation/ROADMAP\|ROADMAP — Bootstrap Roadmap v2.0]] |
 | **Database Foundation** | [[db.README]] · [[db.requirements]] · [[db.todo]] |
 | **Landing Page** | [[landing.README]] · [[landing.requirements]] · [[landing.todo]] |
-| **Hub Centrale (SSO)** | [[app.README]] · [[app.requirements]] · [[app.todo]] |
+| **Central Hub (SSO)** | [[app.README]] · [[app.requirements]] · [[app.todo]] |
 | **Client Portal** | [[studio.README]] · [[studio.requirements]] · [[studio.todo]] |
 | **Cloud Infrastructure** | [[cloud.README]] · [[cloud.requirements]] · [[cloud.todo]] |
 | **Domain Management** | [[domains.README]] · [[domains.requirements]] · [[domains.todo]] |
@@ -558,5 +558,5 @@ Il codice sorgente di Sycren è organizzato in **due organizzazioni GitHub separ
 
 ---
 
-*SYCREN — Documento di Fondazione v1.0 | sycren.com | Giugno 2026*
-*Documento riservato ai fondatori e al management. Non distribuire senza autorizzazione scritta.*
+*SYCREN — Company Founding Document v1.0 | sycren.com | June 2026*
+*Confidential document for founders and management. Do not distribute without written authorization.*

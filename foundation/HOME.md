@@ -1,10 +1,10 @@
 # Sycren — Knowledge Base
 
-> Vault radice della documentazione Sycren. Usa i wikilink per navigare tra progetti, requisiti e TODO.
+> Root vault of Sycren documentation. Use wikilinks to navigate between projects, requirements, and TODOs.
 
 ---
 
-## Architettura della Piattaforma
+## Platform Architecture
 
 ```
                       ┌──────────────────┐
@@ -13,8 +13,8 @@
                       └────────┬─────────┘
                                │
                       ┌────────▼─────────┐
-                      │    sycren-db      │ ← Foundation bloccante
-                      │  (database unico) │
+                      │    sycren-db      │ ← Blocking foundation
+                      │  (unified DB)     │
                       └────────┬─────────┘
                                │
               ┌────────────────┼────────────────┐
@@ -33,15 +33,15 @@
 
     ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
     │ sycren-design-sys │  │  sycren-infra    │  │   sycren-docs    │
-    │ (UI condivisa)    │  │ (IaC + CI/CD)    │  │ (documentazione) │
+    │ (shared UI)       │  │ (IaC + CI/CD)    │  │ (documentation)  │
     └──────────────────┘  └──────────────────┘  └──────────────────┘
 ```
 
 ---
 
-## Documenti Fondazione
+## Foundation Documents
 
-- [[foundation/README|README — Documento di Fondazione v1.0]]
+- [[foundation/README|README — Company Founding Document v1.0]]
 - [[foundation/ROADMAP|ROADMAP — Bootstrap Roadmap v2.0]]
 
 ---
@@ -62,7 +62,7 @@
 
 ---
 
-## Hub Centrale (SSO)
+## Central Hub (SSO)
 
 - [[app.README|sycren-app — README]]
 - [[app.requirements|sycren-app — Requirements]]
